@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ShareIt</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" href="css/style.css" type="text/css"> 
+	</head>
+	<body>
+
+		<div id="div1">
+			<image src = "images/logo.png" alt = "logo" width=200px height = 100px ></image>	
+		</div>
+		<div id="id1">WELCOME TO SHAREIT</div>
+		<div id="div2">
+			<input type="button" class='button' id="button1" value="Show Info">​
+			<input type="button" class='button' id="button2" value="Add new member">​
+			<input type="button" class='button' id="button3" value="Add transaction">​
+			<input type="button" class='button' id="button4" value="Hello World! 4">​ 
+		</div>
+		<div id="id2">
+			<div id='tableselect'>
+				<select > 
+					<option selected >select</option>
+				</select>
+				<table border="2"></table>
+			</div>
+		</div>
+		<section id='transaction' style="display: none; width:20%;">
+			<div>
+				<div class="tabsDiv">
+					<ul class='tabsList'>
+					  	<li class="active">
+			  				<a href="#tab1">me </a>
+			  			</li>
+			  			<li>
+			  				<a href="#tab2">others</a>
+			  			</li>
+					</ul>
+		
+					<div class="tab-content">
+						<div id='tab1' class='tab active'>
+							<p> hello</p>
+						</div>
+						<div id='tab2' class='tab'>
+							<p> hi</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<script  src= "lib/jquery-1.11.3.min.js"></script>
+		<script src="js/controller.js"></script>
+	</body>
+</html>

@@ -1,0 +1,137 @@
+body
+{
+	background-image:url('../images/Backgroundcity.jpg');
+    background-size: cover;
+    min-height: 100%;
+  	min-width: 1024px;
+}
+#id1{
+	background-color:#585858 ; 
+	color:white;
+	padding: 88px;
+	margin-left: 15cm;
+	margin-right: 4cm;margin-top: -5cm;
+	position: relative;
+	text-align: center;
+	font-size: larger;
+}
+#id2{
+	background-color:#F8F8F8 ;
+	 color:Green;
+	  padding: 150px;
+	  margin-left: 17cm;
+	  margin-right: 5cm;
+	  margin-top: -8cm;
+	  margin-bottom: -8cm;
+	  z-index: -1;
+	  width:220px;
+	  height:35px;
+}
+
+#id2 select {
+	margin-left: 7cm;
+	margin-right: 0cm;
+	margin-top: -0cm;
+	margin-bottom: -0cm;
+
+}
+
+table {
+	width:426px;
+	mrgin-left:-98px;
+	margin-right: 0cm;
+	margin-top: -0cm;
+	margin-bottom: -0cm;
+}
+
+.button{
+	height: 36px;
+	width: 314px;
+	margin-left: -1cm;
+	margin-right: 18cm;
+	margin-top: -34cm;
+	z-index: -2;
+}
+
+
+#div2{
+	background-color:#181818 ; 
+	color:white; padding-top: 2cm;  
+	padding-right: 1cm;  
+	padding-bottom: 1cm;  
+	padding-left: 1cm;
+	margin-left: 9cm;
+	margin-right: 18cm;
+	margin-top: -1cm;
+	z-index: -2;
+}
+
+#div1{
+	background-color:#F0F0F0  ; 
+	color:#282828 ;   
+	padding-top: 1cm;
+  	padding-right: 1cm;
+  	padding-bottom: 1cm;
+  	padding-left: 1cm;
+ 	 margin-left: 8cm;
+ 	 margin-right: 20cm;
+  	margin-top: 4cm;
+  	position: relative;
+}
+
+.tabsDiv {
+    width:100%;
+    display:inline-block;
+}
+
+.tabsList{
+	
+	margin-left: 0px;
+    float:left;
+    list-style:none;
+    margin-top: 0px;
+    width: inherit;
+}
+
+.tabsList a {
+            padding:9px 15px;
+            display:inline-block;
+            border-radius:3px 3px 0px 0px;
+            background:#7FB5DA;
+            font-size:16px;
+            font-weight:600;
+            color:#4c4c4c;
+            transition:all linear 0.15s;
+            width: 94px;
+            margin-left: -40px;
+            border-style: solid;
+}
+        }
+
+.tabsList a:hover {
+            background:#a7cce5;
+            text-decoration:none;
+        }
+
+.tab-content {
+        padding:15px;
+        border-radius:3px;
+        box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
+        background:#fff;
+    }
+
+.tab {
+            display:none;
+     }
+ #tab1{
+ 	margin:30px;
+ }
+.tab.active {
+            display:block;
+    }
+
+ .tabsList li  {
+   
+    float:left;
+   
+}
