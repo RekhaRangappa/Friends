@@ -50,6 +50,8 @@ $(document).ready(function(){
  //        }
  //    });
 
+
+
 	$('#id2 select').on('change', function() {
 		var optionSelected = $("#id2 select option:selected").text();
   		alert(optionSelected);
